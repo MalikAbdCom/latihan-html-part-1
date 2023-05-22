@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Form pendaftaran</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto deserunt est sequi temporibus
+    voluptas!</p>
+
+<form action="https://google.com" method="post" >
+    <div>
+        <label for="nama-depan">Nama lengkap</label>
+        <input placeholder="Fulan" required type="text" name="nama-depan" id="nama-depan">
+    </div>
+    <br/>
+    <div>
+        <label for="nama-belakang">Nama belakang</label>
+        <input placeholder="bin fulan" type="text" name="nama-belakang" id="nama-belakang">
+    </div>
+    <br/>
+    <div>
+        <label for="email">E-mail</label>
+        <input placeholder="email@gmail.com" required type="email" name="email" id="email">
+    </div>
+    <br/>
+    <div>
+        <label for="password">Password</label>
+        <input placeholder="asdf14(*&^" required type="password" name="password" id="password">
+    </div>
+    <br/>
+    <div>
+        <label for="ulangi-password">Ulangi Password</label>
+        <input placeholder="asdf14(*&^" required type="password" name="ulangi-password" id="ulangi-password">
+    </div>
+    <br/>
+    <div>
+        <label for="jenis-kelamin">Jenis kelamin</label>
+        <select required name="jenis-kelamin" id="jenis-kelamin">
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">perempuan</option>
+        </select>
+    </div>
+    <br/>
+    <div>
+        <h3>Pendidikan Terakhir</h3>
+        <label for="sma">SMA</label><input type="radio" name="pendidikan" id="sma">
+        <label for="s1">S1</label><input type="radio" name="pendidikan" id="s1">
+        <label for="s2">S2</label><input type="radio" name="pendidikan" id="s2">
+    </div>
+    <br/>
+    <div>
+        <label for="no-telepon">No. Hp</label>
+        <input placeholder="085812345678" required type="number" name="no-telepon" id="no-telepon">
+    </div>
+    <br/>
+    <div>
+        <label for="alasan-mendaftar">Alasan mendaftar</label>
+        <textarea name="alasan mendaftar" id="alasan-mendaftar" cols="30" rows="10"
+                  placeholder="Saya mendaftar karena..."></textarea>
+    </div>
+    <br/>
+    <div>
+        <button type="submit">Daftar sekarang</button>
+        <button type="reset">Hapus data</button>
+    </div>
+</form>
+</body>
+</html>
